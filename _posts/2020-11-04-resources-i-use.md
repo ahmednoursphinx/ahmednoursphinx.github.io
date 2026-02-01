@@ -1,8 +1,8 @@
 ---
 title: "Gemoteric sequence"
 date: "2026-02-01 17:19:30 +0200"
-author: NrdyBhu1
-category: blog 
+author: Ahmed Nour
+category: Math 
 ---
 
 I use a wide variety of ides, tools
