@@ -2,7 +2,7 @@ title: Ahmed Nour
 desciption: >
   Personal Blog.
 email: ahmednour.mohamed2012@gmail.com
-baseurl: "/atlas-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 #replace nrdybhu1.github.io with your domainname.com
 url: "https://ahmednoursphinx.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
