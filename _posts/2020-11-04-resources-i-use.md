@@ -1,6 +1,6 @@
 ---
-title: "Resources I use"
-date: "2020-11-04 11:18:30 +0200"
+title: "Gemoteric sequence"
+date: "2026-02-01 17:19:30 +0200"
 author: NrdyBhu1
 category: blog 
 ---
