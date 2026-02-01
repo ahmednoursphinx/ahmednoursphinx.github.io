@@ -1,0 +1,104 @@
+/*$background-color: #082736;*/
+body { overflow-x: scroll; }
+
+.fork { position: fixed; top: 0; right: 0; }
+
+.pagination { text-align: center; }
+
+.sidebar { position: fixed; top: 0; left: 0; width: 400px; height: 100%; background: #2d3436; text-align: center; color: #fefefe; z-index: 888; }
+
+.blog-post h3 { font-size: 10px; opacity: 0.2; }
+
+.social-media ul { list-style: none; }
+
+.social-media li { display: inline-block; font-size: 20px; }
+
+.content { position: relative; left: 400px; width: calc(100% - 400px); }
+
+a { color: #e74c3c; text-decoration: none; }
+a:hover { color: #2a7ae2; text-decoration: underline; }
+
+footer { text-transform: uppercase; bottom: 0; position: static; text-align: center; }
+
+.highlight { padding: 20px; background: white; }
+.highlighter-rouge .highlight { background: #eef; }
+.highlight .c { color: #D67E70; font-style: italic; }
+.highlight .err { color: #a61717; background-color: #EA88B3; }
+.highlight .k { font-weight: bold; color: #F1B37B; }
+.highlight .o { font-weight: bold; }
+.highlight .cm { color: #998; font-style: italic; }
+.highlight .cp { color: #999; font-weight: bold; }
+.highlight .c1 { color: #998; font-style: italic; }
+.highlight .cs { color: #999; font-weight: bold; font-style: italic; }
+.highlight .gd { color: #000; background-color: #fdd; }
+.highlight .gd .x { color: #000; background-color: #faa; }
+.highlight .ge { font-style: italic; }
+.highlight .gr { color: #a00; }
+.highlight .gh { color: #999; }
+.highlight .gi { color: #000; background-color: #dfd; }
+.highlight .gi .x { color: #000; background-color: #afa; }
+.highlight .go { color: #888; }
+.highlight .gp { color: #555; }
+.highlight .gs { font-weight: bold; }
+.highlight .gu { color: #aaa; }
+.highlight .gt { color: #a00; }
+.highlight .kc { font-weight: bold; color: #9F20F6; }
+.highlight .kd { font-weight: bold; color: #0630ED; }
+.highlight .kp { font-weight: bold; }
+.highlight .kr { font-weight: bold; color: #77EC62; }
+.highlight .kt { color: #D57234; font-weight: bold; }
+.highlight .m { color: #7BE920; }
+.highlight .s { color: #D23C31; }
+.highlight .na { color: #008080; }
+.highlight .nb { color: #0086B3; }
+.highlight .nc { color: #20F887; font-weight: bold; }
+.highlight .no { color: #008080; }
+.highlight .ni { color: #800080; }
+.highlight .ne { color: #900; font-weight: bold; }
+.highlight .nf { color: #0AC4D4; font-weight: bold; }
+.highlight .nn { color: #4D39E2; }
+.highlight .nt { color: #000080; }
+.highlight .nv { color: #F72E4E; }
+.highlight .ow { font-weight: bold; }
+.highlight .w { color: #bbb; }
+.highlight .mf { color: #A1DD6D; }
+.highlight .mh { color: #3194D8; }
+.highlight .mi { color: #5FC664; }
+.highlight .mo { color: #099; }
+.highlight .sb { color: #d14; }
+.highlight .sc { color: #d14; }
+.highlight .sd { color: #d14; }
+.highlight .s2 { color: #d14; }
+.highlight .se { color: #d14; }
+.highlight .sh { color: #d14; }
+.highlight .si { color: #d14; }
+.highlight .sx { color: #d14; }
+.highlight .sr { color: #009926; }
+.highlight .s1 { color: #d14; }
+.highlight .ss { color: #990073; }
+.highlight .bp { color: #999; }
+.highlight .vc { color: #CD4E06; }
+.highlight .vg { color: #008080; }
+.highlight .vi { color: #008080; }
+.highlight .il { color: #099; }
+
+.show-on-mobile { visibility: hidden; opacity: 0; width: 0; height: 0; }
+
+.sidebar img { width: 200px; height: auto; }
+
+.site-header { width: 1; height: auto; visibility: visible; }
+
+.hide-on-mobile { visibility: visible; opacity: 1; width: 1; height: 1; }
+
+.center-on-mobile { text-align: left; }
+
+@media screen and (max-width: 800px) { .show-on-mobile { visibility: visible; opacity: 1; width: 1; height: 1; }
+  .hide-on-mobile { visibility: hidden; opacity: 0; width: 0; height: 0; }
+  .center-on-mobile { text-align: center; }
+  .sidebar img { width: 100px; height: auto; position: fixed; left: 0; }
+  .sidebar h1, .sidebar h4 { width: 0; height: 0; visibility: hidden; display: none !important; }
+  .sidebar { height: 100px; width: 100%; position: fixed; top: 0; vertical-align: middle; }
+  .sidebar h2, .sidebar h3, .sidebar img { display: inline-block; }
+  .content { position: relative; top: 100px; left: 0; width: 100%; }
+  .social-media li { display: list-item; }
+  .fork { position: fixed; top: 100px; } }

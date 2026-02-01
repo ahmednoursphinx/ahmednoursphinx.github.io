@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atlas Jekyll Theme</title>
+    <description></description>
+    <link>http://localhost:4000/atlas-jekyll-theme/</link>
+    <atom:link href="http://localhost:4000/atlas-jekyll-theme/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>01 February 2026</pubDate>
+    <lastBuildDate>01 February 2026</lastBuildDate>
+    <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Resources I use</title>
+        <description>&lt;p&gt;I use a wide variety of ides, tools
+and other resources that can be helpful. Below is a collection of links to
+some of the most popular resources and tools that I use.&lt;/p&gt;
+
+</description>
+        <pubDate>04 November 2020</pubDate>
+        <link>http://localhost:4000/atlas-jekyll-theme/blog/resources-i-use.html</link>
+        <guid isPermaLink="true">http://localhost:4000/atlas-jekyll-theme/blog/resources-i-use.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Whack A Mole Tutorial</title>
+        <description>&lt;p class=&quot;note info&quot;&gt;This is not a tutorial&lt;/p&gt;
+
+</description>
+        <pubDate>04 November 2020</pubDate>
+        <link>http://localhost:4000/atlas-jekyll-theme/blog/whack-a-mole-tutorial.html</link>
+        <guid isPermaLink="true">http://localhost:4000/atlas-jekyll-theme/blog/whack-a-mole-tutorial.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Pause Menu Tutorial</title>
+        <description>&lt;p&gt;So today we are going to be making pause menus in unity.&lt;/p&gt;
+
+</description>
+        <pubDate>03 November 2020</pubDate>
+        <link>http://localhost:4000/atlas-jekyll-theme/blog/pause-menu-tutorial.html</link>
+        <guid isPermaLink="true">http://localhost:4000/atlas-jekyll-theme/blog/pause-menu-tutorial.html</guid>
+        
+        
+        <category>tutorial blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Mouse Cursor Follow Tutorial</title>
+        <description>&lt;p&gt;So today we are going to be making and object follow the mouse cursor in unity.&lt;/p&gt;
+
+</description>
+        <pubDate>03 November 2020</pubDate>
+        <link>http://localhost:4000/atlas-jekyll-theme/blog/mouse-cursor-follow-tutorial.html</link>
+        <guid isPermaLink="true">http://localhost:4000/atlas-jekyll-theme/blog/mouse-cursor-follow-tutorial.html</guid>
+        
+        
+        <category>tutorial blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Custom Mouse Cursor Tutorial</title>
+        <description>&lt;p&gt;So today we are going to be making custom mouse cursor in unity.&lt;/p&gt;
+
+</description>
+        <pubDate>03 November 2020</pubDate>
+        <link>http://localhost:4000/atlas-jekyll-theme/blog/custom-mouse-cursor-tutorial.html</link>
+        <guid isPermaLink="true">http://localhost:4000/atlas-jekyll-theme/blog/custom-mouse-cursor-tutorial.html</guid>
+        
+        
+        <category>tutorial blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome To My Blog</title>
+        <description>&lt;p&gt;Hey! After many months of time pass, I have been finally able to create a blogging website with jekyll theme.
+This is my first post. There may be many changes to this website in futures.
+Thank you.&lt;/p&gt;
+
+</description>
+        <pubDate>02 November 2020</pubDate>
+        <link>http://localhost:4000/atlas-jekyll-theme/blog/welcome-to-my-blog.html</link>
+        <guid isPermaLink="true">http://localhost:4000/atlas-jekyll-theme/blog/welcome-to-my-blog.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+</description>
+        <pubDate>30 March 2016</pubDate>
+        <link>http://localhost:4000/atlas-jekyll-theme/blog/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/atlas-jekyll-theme/blog/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+</description>
+        <pubDate>30 March 2016</pubDate>
+        <link>http://localhost:4000/atlas-jekyll-theme/blog/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/atlas-jekyll-theme/blog/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+</description>
+        <pubDate>30 March 2016</pubDate>
+        <link>http://localhost:4000/atlas-jekyll-theme/blog/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/atlas-jekyll-theme/blog/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+</description>
+        <pubDate>30 March 2016</pubDate>
+        <link>http://localhost:4000/atlas-jekyll-theme/blog/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/atlas-jekyll-theme/blog/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

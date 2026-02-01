@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/atlas-jekyll-theme/feed.xml" title="Atlas Jekyll Theme" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/atlas-jekyll-theme/feed.xml" title="Jekyll releases posts" />
+  <link rel="preload" href="http://localhost:4000/atlas-jekyll-theme/css/style.css" as="style">
+  <link rel="stylesheet" href="http://localhost:4000/atlas-jekyll-theme/css/style.css">
+  <link rel="icon" type="image/x-icon" href="http://localhost:4000/atlas-jekyll-theme/img/atlas.png">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Pause Menu Tutorial | Atlas Jekyll Theme</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Pause Menu Tutorial" />
+<meta name="author" content="NrdyBhu1" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="So today we are going to be making pause menus in unity." />
+<meta property="og:description" content="So today we are going to be making pause menus in unity." />
+<link rel="canonical" href="http://localhost:4000/atlas-jekyll-theme/blog/pause-menu-tutorial.html" />
+<meta property="og:url" content="http://localhost:4000/atlas-jekyll-theme/blog/pause-menu-tutorial.html" />
+<meta property="og:site_name" content="Atlas Jekyll Theme" />
+<meta property="og:image" content="http://localhost:4000/atlas-jekyll-theme/img/preview.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-11-03T07:45:12+02:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/atlas-jekyll-theme/img/preview.png" />
+<meta property="twitter:title" content="Pause Menu Tutorial" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"NrdyBhu1"},"dateModified":"2020-11-03T07:45:12+02:00","datePublished":"2020-11-03T07:45:12+02:00","description":"So today we are going to be making pause menus in unity.","headline":"Pause Menu Tutorial","image":"http://localhost:4000/atlas-jekyll-theme/img/preview.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/atlas-jekyll-theme/blog/pause-menu-tutorial.html"},"url":"http://localhost:4000/atlas-jekyll-theme/blog/pause-menu-tutorial.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <title>Pause Menu TutorialAtlas Jekyll Theme</title>
+</head><body>
+        <div class="sidebar">
+    <h1 class="site-header">Atlas Jekyll Theme</h1>
+    <a href="http://localhost:4000/atlas-jekyll-theme/"><img class="avatar" alt="Jekyll" width="200" height="200" data-proofer-ignore="true" src="https://avatars1.githubusercontent.com/Jekyll?v=3&s=200" srcset="https://avatars1.githubusercontent.com/Jekyll?v=3&s=200 1x, https://avatars1.githubusercontent.com/Jekyll?v=3&s=400 2x, https://avatars1.githubusercontent.com/Jekyll?v=3&s=600 3x, https://avatars1.githubusercontent.com/Jekyll?v=3&s=800 4x" /></a>
+    <a href="https://github.com/Jekyll"><h1>Jekyll</h1></a>
+    <h4></h4><br>
+    <h2><a href="http://localhost:4000/atlas-jekyll-theme/about.html">About</a></h2>
+    <h2><a href="http://localhost:4000/atlas-jekyll-theme/blog/">Blogs</a></h2>
+    <h2><a href="http://localhost:4000/atlas-jekyll-theme/feed.xml">Rss feed</a></h2>
+</div>
+        <div class="content">
+            <div class="fork">
+    <a target="_blank" href="https://github.com/NrdyBhu1/atlas-jekyll-theme/fork/"><img loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_orange_ff7600.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+</div>
+            <h1>Pause Menu Tutorial</h1>
+            
+                <h3 style="font-size:20px;opacity:0.5;"><i class="fas fa-calendar-alt"></i> 03 November 2020</h3>
+            
+            <p>So today we are going to be making pause menus in unity.</p>
+
+<p class="note info">Currently I am using <code class="language-plaintext highlighter-rouge">Unity 2019.4.10</code>, So this can be applicable for future versions and maybe some older ones too.</p>
+
+<p>I have a pre-prepared scene with only particles moving randomly. <br />
+<br />
+<br />
+<a href="/atlas-jekyll-theme/zips/BlurShader.zip"><button>Download Assets <i class="fas fa-download"></i></button></a> <br />
+<br />
+<br />
+Lets start by creating a C# script and call it GameManager.cs <br />
+so this is the default script you will get</p>
+
+<figure class="highlight"><pre><code class="language-cs" data-lang="cs">    <span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+    <span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+    <span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+
+    <span class="k">public</span> <span class="k">class</span> <span class="nc">GameManager</span> <span class="p">:</span> <span class="n">MonoBehaviour</span><span class="p">{</span>
+        
+        <span class="c1">//Use..</span>
+        <span class="k">void</span> <span class="nf">Start</span><span class="p">(){</span>
+            
+        <span class="p">}</span>
+
+        <span class="c1">//....</span>
+        <span class="k">void</span> <span class="nf">Update</span><span class="p">(){</span>
+
+        <span class="p">}</span>
+    <span class="p">}</span></code></pre></figure>
+
+<p><br />
+<br />
+You can remove both the comments. <br />
+First create a canvas with all the elements to be displayed when the game is paused and disable it.<br />
+Rename the canvas to PauseCanvas or what you choose.</p>
+
+<p>We will use Time.timeScale to change the active state of the game. <br />
+When its value is 0 then the game will like stop and if it is 1 it will run properly. 
+It is like the speed of the game, it won`t work or move if it 0. <br />
+We will create 2 functions Resume and Pause and change the timeScale value here.</p>
+
+<figure class="highlight"><pre><code class="language-cs" data-lang="cs">    <span class="k">void</span> <span class="nf">Pause</span><span class="p">(){</span>
+        <span class="n">Time</span><span class="p">.</span><span class="n">timeScale</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">void</span> <span class="nf">Resume</span><span class="p">(){</span>
+        <span class="n">Time</span><span class="p">.</span><span class="n">timeScale</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span>
+    <span class="p">}</span></code></pre></figure>
+
+<p>And we will modify the visibility of the pause menu too.
+So the with the additional code it will be</p>
+
+<figure class="highlight"><pre><code class="language-cs" data-lang="cs">    <span class="k">void</span> <span class="nf">Pause</span><span class="p">(){</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">pauseCanvas</span> <span class="p">!=</span> <span class="k">null</span><span class="p">){</span>
+            <span class="n">pauseCanvas</span><span class="p">.</span><span class="n">gameObject</span><span class="p">.</span><span class="nf">SetActive</span><span class="p">(</span><span class="k">true</span><span class="p">);</span>
+            <span class="n">Time</span><span class="p">.</span><span class="n">timeScale</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">Resume</span><span class="p">(){</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">pauseCanvas</span> <span class="p">!=</span> <span class="k">null</span><span class="p">){</span>
+            <span class="n">pauseCanvas</span><span class="p">.</span><span class="n">gameObject</span><span class="p">.</span><span class="nf">SetActive</span><span class="p">(</span><span class="k">false</span><span class="p">);</span>
+            <span class="n">Time</span><span class="p">.</span><span class="n">timeScale</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span></code></pre></figure>
+
+<p>And we will disable the pause menu on start.</p>
+
+<figure class="highlight"><pre><code class="language-cs" data-lang="cs">    <span class="k">private</span> <span class="k">void</span> <span class="nf">Start</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">pauseCanvas</span> <span class="p">!=</span> <span class="k">null</span><span class="p">){</span>
+            <span class="n">pauseCanvas</span><span class="p">.</span><span class="n">gameObject</span><span class="p">.</span><span class="nf">SetActive</span><span class="p">(</span><span class="k">false</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span></code></pre></figure>
+
+<p>So this is the Final Script.</p>
+
+<figure class="highlight"><pre><code class="language-cs" data-lang="cs">    <span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+    <span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+    <span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+
+    <span class="k">public</span> <span class="k">class</span> <span class="nc">GameManager</span> <span class="p">:</span> <span class="n">MonoBehaviour</span>
+    <span class="p">{</span>
+        <span class="err">#</span><span class="n">region</span> <span class="n">Variables</span>
+        <span class="k">public</span> <span class="n">Canvas</span> <span class="n">pauseCanvas</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+        <span class="err">#</span><span class="n">endregion</span>
+        <span class="k">private</span> <span class="k">void</span> <span class="nf">Start</span><span class="p">()</span> <span class="p">{</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">pauseCanvas</span> <span class="p">!=</span> <span class="k">null</span><span class="p">){</span>
+                <span class="n">pauseCanvas</span><span class="p">.</span><span class="n">gameObject</span><span class="p">.</span><span class="nf">SetActive</span><span class="p">(</span><span class="k">false</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="k">void</span> <span class="nf">Pause</span><span class="p">(){</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">pauseCanvas</span> <span class="p">!=</span> <span class="k">null</span><span class="p">){</span>
+                <span class="n">pauseCanvas</span><span class="p">.</span><span class="n">gameObject</span><span class="p">.</span><span class="nf">SetActive</span><span class="p">(</span><span class="k">true</span><span class="p">);</span>
+                <span class="n">Time</span><span class="p">.</span><span class="n">timeScale</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="k">void</span> <span class="nf">Resume</span><span class="p">(){</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">pauseCanvas</span> <span class="p">!=</span> <span class="k">null</span><span class="p">){</span>
+                <span class="n">pauseCanvas</span><span class="p">.</span><span class="n">gameObject</span><span class="p">.</span><span class="nf">SetActive</span><span class="p">(</span><span class="k">false</span><span class="p">);</span>
+                <span class="n">Time</span><span class="p">.</span><span class="n">timeScale</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="k">private</span> <span class="k">void</span> <span class="nf">Update</span><span class="p">()</span> <span class="p">{</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">Input</span><span class="p">.</span><span class="nf">GetKey</span><span class="p">(</span><span class="s">"escape"</span><span class="p">)){</span>
+                <span class="nf">Pause</span><span class="p">();</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span></code></pre></figure>
+
+<p><br />
+<br />
+Now go into the unity editor and hit play. <br />
+Everything should work as expected. <br />
+Hit the Escape key to pause the game. <br />
+<br />
+<br />
+<a href="https://github.com/NrdyBhu1/Custom-Mouse-Cursor/archive/master.zip"><button>Download project files <i class="fas fa-download"></i></button></a></p>
+
+        <div>
+    </body>
+    <footer>
+    <h5>Jekyll,yourusername@gmail.com</h5>
+    <div class="social-media">
+    <ul>
+        
+        <li><a href="http://localhost:4000/atlas-jekyll-theme/github.html">github</a></li>
+        
+        <li><a href="http://localhost:4000/atlas-jekyll-theme/itchio.html">itch-io</a></li>
+        
+        <li><a href="http://localhost:4000/atlas-jekyll-theme/youtube.html'">youtube</a></li>
+        
+        <li><a href="http://localhost:4000/atlas-jekyll-theme/patreon.html">patreon</a></li>
+        <!-- <li><a style="color:black;" href="http://localhost:4000/atlas-jekyll-theme/github.html"><i class="fab fa-github"></i></a></li> 
+        <li><a style="color:red;" href="http://localhost:4000/atlas-jekyll-theme/patreon.html"><i class="fab fa-patreon"></i></a></li> 
+        <li><a style="color:red;" href="http://localhost:4000/atlas-jekyll-theme/itchio.html"><i class="fab fa-itch-io"></i></a></li> 
+        <li><a style="color:red;" href="http://localhost:4000/atlas-jekyll-theme/youtube.html"><i class="fab fa-youtube"></i></a></li>  -->
+    </ul>
+</div></footer></html>
