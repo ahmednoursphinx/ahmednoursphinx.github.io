@@ -19,10 +19,6 @@ My first project was a prototype which was unfinished but still it was a game.
 
 Link your social accounts
 # Social Accounts
-[Itch.io](#) \
-[Patreon](#) \
-[Youtube](#) \
-[My Website](#) \
 [Gmail](#) \
 [Github](#)
 

@@ -1,4 +1,4 @@
 ---
 permalink: /mail.html
-redirect_to: 'mailto: nrdybhu1.queries@gmail.com'
+redirect_to: 'mailto: ahmednour.mohamed2012@gmail.com'
 ---
