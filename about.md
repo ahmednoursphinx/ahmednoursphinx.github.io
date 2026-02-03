@@ -11,7 +11,7 @@ redirect_from: /about.html
 ---
 
 ## 🚀 About Me
-### Software Engineer | iOS (Swift / SwiftUI) | Compiler Engineering
+### Staff Software Engineer | iOS (Swift / SwiftUI) | Compiler Engineering
 
 I’m a software engineer with a strong focus on **iOS development** and a growing interest in **compiler engineering**.  
 I enjoy building efficient systems and understanding software from **high-level applications** down to **low-level infrastructure**.

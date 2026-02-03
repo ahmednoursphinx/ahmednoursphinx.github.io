@@ -4,3 +4,49 @@ date: "2026-02-01 17:19:30 +0200"
 author: Ahmed Nour
 category: Math 
 ---
+
+# Understanding Geometric Sequences
+
+## Sequence
+A sequence is a set of things, usually numbers, in order. For example: 3, 5, 7, 9, ...
+
+## Geometric Sequence
+In a geometric sequence, each term is found by multiplying the previous term by a constant (the common ratio).
+
+**Example:** 1, 2, 4, 8, 16, 32  
+This sequence has a common ratio of 2.
+
+## General Form
+The general form of a geometric sequence is:
+{ar⁰, ar¹, ar², ar³, ... , arⁿ⁻¹}
+Where:
+- `a` is the first term
+- `r` is the common ratio
+
+In the example above: `a = 1`, `r = 2`.
+
+## Formula for the nth Term
+The formula for the nth term is:
+x(n) = arⁿ⁻¹
+
+**Example:** For the sequence 10, 30, 90, 270:
+- `a = 10`
+- `r = 3`
+- 4th term: `x(4) = 10 × 3³ = 270`
+
+## Sum of a Geometric Sequence
+The sum of the first `n` terms of a geometric sequence is:
+n-1
+∑ arᵏ = a(1 - rⁿ)/(1 - r)
+k=0
+Where:
+- `a` is the first term
+- `r` is the common ratio
+- `n` is the number of terms
+- `Σ` is the summation symbol
+
+**Example:** Sum of first 4 terms of 10, 30, 90, 270:
+- `a = 10`
+- `r = 3`
+- `n = 4`
+- Sum = `10 × (1 - 3⁴)/(1 - 3) = 400`
