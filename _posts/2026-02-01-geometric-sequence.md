@@ -5,6 +5,9 @@ author: Ahmed Nour
 category: Math 
 ---
 
+This is a general understanding of geometric sequence.
+
+
 # <span style="color:blue">Understanding Geometric Sequences</span>
 
 ## <span style="color:blue">Sequence</span>
