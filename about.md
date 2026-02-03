@@ -5,28 +5,50 @@ permalink: /about/
 redirect_from: /about.html
 ---
 
-## Hi there 👋
+# 👋 Hi there  
+# I'm **Ahmed Nour**
 
+---
 
-# About Me
+## 🚀 About Me
+### Software Engineer | iOS (Swift / SwiftUI) | Compiler Engineering
 
-# My first project
+I’m a software engineer with a strong focus on **iOS development** and a growing interest in **compiler engineering**.  
+I enjoy building efficient systems and understanding software from **high-level applications** down to **low-level infrastructure**.
 
-# Social Accounts
-[Gmail](#) \
-[Github](#)
+---
 
-Show your github Stats
-# Stats
-<p>
-    <img src="https://github-readme-stats.vercel.app/api?username=ahmednoursphinx&show_icons=true&layout=compact&bg_color=30,12c2e9,f64f59&title_color=fff&text_color=fff">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmednoursphinx&layout=compact&bg_color=30,1565C0,b92b27&title_color=fff&text_color=fff">
-</p>
+## 🧩 Projects
+### Professional work, open-source contributions, and long-term technical exploration.
 
-Your showcase here
-# My Showcase
-<p>
-    <a href="https://github.com/Jekyll/jekyll"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jekyll&repo=jekyll&show_owner=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff"></a>
-    <a href="https://github.com/Jekyll/teams"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jekyll&repo=teams&show_owner=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff"></a>
-</p>
+---
+
+### 🔧 Compiler & Tooling
+**LLVM Contributions**  
+Active contributor to the LLVM project.  
+
+➡️ **View my merged and open pull requests:**  
+👉 [LLVM Pull Requests](https://github.com/search?q=repo%3Allvm%2Fllvm-project+author%3Aahmednoursphinx&type=pullrequests)
+
+---
+
+### 📱 iOS & Swift
+**iOS Applications (Swift / SwiftUI)**  
+Worked on multiple iOS projects focusing on:
+- Clean architecture  
+- Performance  
+- Maintainability  
+
+➡️ **Full project details & experience:**  
+👉 [LinkedIn Profile](https://www.linkedin.com/in/ahmed-nour-6735b5100/)
+
+---
+
+## 🌐 Contact & Social
+📧 **Email:**  
+👉 [ahmednour.mohamed2012@gmail.com](mailto:ahmednour.mohamed2012@gmail.com)
+
+💻 **GitHub:**  
+👉 [github.com/ahmednoursphinx](https://github.com/ahmednoursphinx)
+
 

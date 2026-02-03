@@ -5,13 +5,16 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>02 February 2026</pubDate>
-    <lastBuildDate>02 February 2026</lastBuildDate>
+    <pubDate>03 February 2026</pubDate>
+    <lastBuildDate>03 February 2026</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
         <title>[Math]: Gemoteric sequence</title>
-        <description>
+        <description>&lt;p&gt;I use a wide variety of ides, tools
+and other resources that can be helpful. Below is a collection of links to
+some of the most popular resources and tools that I use.&lt;/p&gt;
+
 </description>
         <pubDate>01 February 2026</pubDate>
         <link>http://localhost:4000/blog/geometric-sequence.html</link>
