@@ -5,7 +5,10 @@ author: Ahmed Nour
 category: Misc 
 ---
 
+Here, we’re separating semantics from syntax to clarify the difference.
+
 # <span style="color:blue">What is Semantics</span>
+
 Short version first: semantics = meaning 😄 
 
 In programming languages, semantics describes what a program actually does when it runs, not how it looks or how it’s written.
