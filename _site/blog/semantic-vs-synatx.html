@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GHCMVVVJZT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GHCMVVVJZT');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ahmed Nour" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jekyll releases posts" />
+  <link rel="preload" href="http://localhost:4000/css/style.css" as="style">
+  <link rel="stylesheet" href="http://localhost:4000/css/style.css">
+  <link rel="icon" type="image/x-icon" href="http://localhost:4000/img/atlas.png">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Ahmed Nour</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Ahmed Nour" />
+<meta name="author" content="Ahmed Nour" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="What is Semantics Short version first: semantics = meaning 😄" />
+<meta property="og:description" content="What is Semantics Short version first: semantics = meaning 😄" />
+<link rel="canonical" href="http://localhost:4000/blog/semantic-vs-synatx.html" />
+<meta property="og:url" content="http://localhost:4000/blog/semantic-vs-synatx.html" />
+<meta property="og:site_name" content="Ahmed Nour" />
+<meta property="og:image" content="http://localhost:4000/img/preview.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-02-09T10:46:30+02:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/img/preview.png" />
+<meta property="twitter:title" content="Ahmed Nour" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ahmed Nour"},"dateModified":"2026-02-09T10:46:30+02:00","datePublished":"2026-02-09T10:46:30+02:00","description":"What is Semantics Short version first: semantics = meaning 😄","headline":"Ahmed Nour","image":"http://localhost:4000/img/preview.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/semantic-vs-synatx.html"},"url":"http://localhost:4000/blog/semantic-vs-synatx.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <title>[Misc]: Semantic Vs syntaxAhmed Nour</title>
+</head><body>
+        <div class="sidebar">
+    <h1 class="site-header">Ahmed Nour</h1>
+    <a href="http://localhost:4000/"><img class="avatar" alt="ahmednoursphinx" width="200" height="200" data-proofer-ignore="true" src="https://avatars3.githubusercontent.com/ahmednoursphinx?v=3&s=200" srcset="https://avatars3.githubusercontent.com/ahmednoursphinx?v=3&s=200 1x, https://avatars3.githubusercontent.com/ahmednoursphinx?v=3&s=400 2x, https://avatars3.githubusercontent.com/ahmednoursphinx?v=3&s=600 3x, https://avatars3.githubusercontent.com/ahmednoursphinx?v=3&s=800 4x" /></a>
+    <a href="https://github.com/ahmednoursphinx"><h1>ahmednoursphinx</h1></a>
+    <h4></h4><br>
+    <h2><a href="http://localhost:4000/about.html">About</a></h2>
+    <h2><a href="http://localhost:4000/blog/">Blogs</a></h2>
+    <h2><a href="http://localhost:4000/feed.xml">Rss feed</a></h2>
+</div>
+        <div class="content">
+            
+            <h1>[Misc]: Semantic Vs syntax</h1>
+            
+                <h3 style="font-size:20px;opacity:0.5;"><i class="fas fa-calendar-alt"></i> 09 February 2026</h3>
+            
+            <h1 id="what-is-semantics"><span style="color:blue">What is Semantics</span></h1>
+<p>Short version first: semantics = meaning 😄</p>
+
+<p>In programming languages, semantics describes what a program actually does when it runs, not how it looks or how it’s written.</p>
+
+<h2 id="layers-of-programming-language"><span style="color:blue">Layers of programming language</span></h2>
+
+<p>When we talk about a programming language, there are usually three layers:</p>
+
+<ol>
+  <li>Syntax → How it’s written</li>
+  <li>Semantics → What it means / what happens</li>
+  <li>Pragmatics → How people actually use it</li>
+</ol>
+
+<p>for example:</p>
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">a</span> <span class="o">=</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p><strong>Syntax</strong>:
+Is this written in a way the compiler understands?
+(Yes: assignment, +, identifiers, semicolon)</p>
+
+<p><strong>Semantics</strong>:
+What does this mean?</p>
+
+<p>Take the value of b
+Take the value of c
+Add them
+Store the result in a</p>
+
+<p>If b = 2 and c = 3, the semantic result is a = 5.</p>
+
+<h2 id="why-syntax-alone-is-not-enough"><span style="color:blue">Why syntax alone is not enough?</span></h2>
+
+<p>For example :</p>
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>vs</p>
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p><strong>Syntax</strong>: different</p>
+
+<p><strong>Semantics</strong>: the same (increment x by 1)</p>
+
+<p>Now compare:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x = x++;
+</code></pre></div></div>
+
+<p><strong>Syntax</strong>: valid (in C/C++)</p>
+
+<p><strong>Semantics</strong>: tricky / undefined (depends on language rules)</p>
+
+<p>So semantics answers:</p>
+
+<p>“What exactly happens here?”</p>
+
+<h2 id="semantics-vs-behavior-across-languages"><span style="color:blue">Semantics vs behavior across languages</span></h2>
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>C/C++ semantics → x = 0</p>
+
+<p>Python semantics → x = 0.5</p>
+
+<p>Swift semantics → compile error (type mismatch)</p>
+
+<p>Same text, different meaning.</p>
+
+<h2 id="summary"><span style="color:blue">Summary</span></h2>
+
+<p><strong>Syntax</strong> is how code looks.</p>
+
+<p><strong>Semantics</strong> is what the code means and what it does when executed.</p>
+
+        <div>
+    </body>
+    <footer>
+    <h5>ahmednoursphinx,ahmednour.mohamed2012@gmail.com</h5>
+    <div class="social-media">
+    <ul>
+        
+        <li><a href="http://localhost:4000/github.html">github</a></li>
+        
+        <li><a href="http://localhost:4000/linkedin.html">linkedin</a></li>
+        <!-- <li><a style="color:black;" href="http://localhost:4000/github.html"><i class="fab fa-github"></i></a></li> 
+        <li><a style="color:red;" href="http://localhost:4000/linkedin.html"><i class="fab fa-patreon"></i></a></li> -->
+    </ul>
+</div></footer></html>

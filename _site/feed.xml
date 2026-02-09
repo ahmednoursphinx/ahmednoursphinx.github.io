@@ -5,9 +5,24 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>03 February 2026</pubDate>
-    <lastBuildDate>03 February 2026</lastBuildDate>
+    <pubDate>09 February 2026</pubDate>
+    <lastBuildDate>09 February 2026</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>[Misc]: Semantic Vs syntax</title>
+        <description>&lt;h1 id=&quot;what-is-semantics&quot;&gt;&lt;span style=&quot;color:blue&quot;&gt;What is Semantics&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;Short version first: semantics = meaning 😄&lt;/p&gt;
+
+</description>
+        <pubDate>09 February 2026</pubDate>
+        <link>http://localhost:4000/blog/semantic-vs-synatx.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/semantic-vs-synatx.html</guid>
+        
+        
+        <category>Misc</category>
+        
+      </item>
     
       <item>
         <title>[Math]: Gemoteric sequence</title>
