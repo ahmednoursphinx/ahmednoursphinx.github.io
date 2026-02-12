@@ -19,23 +19,27 @@
   <link rel="stylesheet" href="http://localhost:4000/css/style.css">
   <link rel="icon" type="image/x-icon" href="http://localhost:4000/img/atlas.png">
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>All Blogs | Ahmed Nour</title>
+<title>Ahmed Nour</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="All Blogs" />
+<meta property="og:title" content="Ahmed Nour" />
+<meta name="author" content="Ahmed Nour" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/blog/" />
-<meta property="og:url" content="http://localhost:4000/blog/" />
+<meta name="description" content="Here, we’re disecting compiler components." />
+<meta property="og:description" content="Here, we’re disecting compiler components." />
+<link rel="canonical" href="http://localhost:4000/blog/structure-of-compiler.html" />
+<meta property="og:url" content="http://localhost:4000/blog/structure-of-compiler.html" />
 <meta property="og:site_name" content="Ahmed Nour" />
 <meta property="og:image" content="http://localhost:4000/img/preview.png" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-02-12T22:34:30+02:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="http://localhost:4000/img/preview.png" />
-<meta property="twitter:title" content="All Blogs" />
+<meta property="twitter:title" content="Ahmed Nour" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"All Blogs","image":"http://localhost:4000/img/preview.png","url":"http://localhost:4000/blog/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ahmed Nour"},"dateModified":"2026-02-12T22:34:30+02:00","datePublished":"2026-02-12T22:34:30+02:00","description":"Here, we’re disecting compiler components.","headline":"Ahmed Nour","image":"http://localhost:4000/img/preview.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/structure-of-compiler.html"},"url":"http://localhost:4000/blog/structure-of-compiler.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-  <title>All BlogsAhmed Nour</title>
+  <title>[Compiler]: The Structure of compilerAhmed Nour</title>
 </head><body>
         <div class="sidebar">
     <h1 class="site-header">Ahmed Nour</h1>
@@ -48,62 +52,37 @@
 </div>
         <div class="content">
             
-            <h1>All Blogs</h1>
+            <h1>[Compiler]: The Structure of compiler</h1>
             
-            <div class="blog-post">
-    <!-- 
-    <h2><a href="http://localhost:4000/blog/structure-of-compiler.html">[Compiler]: The Structure of compiler</a><h2>
-    <h3><i class="fas fa-calendar-alt"></i> 12 February 2026</h3>
-    <p><p>Here, we’re disecting compiler components.</p>
+                <h3 style="font-size:20px;opacity:0.5;"><i class="fas fa-calendar-alt"></i> 12 February 2026</h3>
+            
+            <p>Here, we’re disecting compiler components.</p>
 
- <a href="http://localhost:4000/blog/structure-of-compiler.html">[...]</a></p>
-    
-    <h2><a href="http://localhost:4000/blog/semantic-vs-synatx.html">[Misc]: Semantic Vs syntax</a><h2>
-    <h3><i class="fas fa-calendar-alt"></i> 09 February 2026</h3>
-    <p><p>Here, we’re separating semantics from syntax to clarify the difference.</p>
+<h1 id="the-structure-of-compilerfront-end-focus"><span style="color:blue">The structure of compiler(Front End focus)</span></h1>
 
- <a href="http://localhost:4000/blog/semantic-vs-synatx.html">[...]</a></p>
-    
-    <h2><a href="http://localhost:4000/blog/geometric-sequence.html">[Math]: Gemoteric sequence</a><h2>
-    <h3><i class="fas fa-calendar-alt"></i> 01 February 2026</h3>
-    <p><p>This is a general understanding of geometric sequence.</p>
+<p>Compiler consists of three main components:</p>
 
- <a href="http://localhost:4000/blog/geometric-sequence.html">[...]</a></p>
-    -->
-    <!-- This loops through the paginated posts -->
-    
-        <h2><a href="http://localhost:4000/blog/structure-of-compiler.html">[Compiler]: The Structure of compiler</a><h2>
-        <h3><i class="fas fa-calendar-alt"></i> 12 February 2026</h3>
-        <p><p>Here, we’re disecting compiler components.</p>
+<ol>
+  <li>Front end:  Deals with source language and transforms source code into an Intermediate representation(IR)</li>
+  <li>Middle End: Performs transformations on Ir with goal of either improving performance or reducing the size of code</li>
+  <li>Backend: Produces machine code from Intermediate representation (IR)</li>
+</ol>
 
- <a href="http://localhost:4000/blog/structure-of-compiler.html">[...]</a></p>
-    
-        <h2><a href="http://localhost:4000/blog/semantic-vs-synatx.html">[Misc]: Semantic Vs syntax</a><h2>
-        <h3><i class="fas fa-calendar-alt"></i> 09 February 2026</h3>
-        <p><p>Here, we’re separating semantics from syntax to clarify the difference.</p>
+<h2 id="front-end"><span style="color:blue">Front End</span></h2>
 
- <a href="http://localhost:4000/blog/semantic-vs-synatx.html">[...]</a></p>
-    
-        <h2><a href="http://localhost:4000/blog/geometric-sequence.html">[Math]: Gemoteric sequence</a><h2>
-        <h3><i class="fas fa-calendar-alt"></i> 01 February 2026</h3>
-        <p><p>This is a general understanding of geometric sequence.</p>
+<p>Usually the input to front end is text file which then is processed with the three following components:</p>
 
- <a href="http://localhost:4000/blog/geometric-sequence.html">[...]</a></p>
-    
-</div>
-
-<!-- Pagination links -->
-<div class="pagination">
-  
-    <span class="previous">Previous</span>
-  
-  <span class="page_number ">
-    Page: 1 of 1
-  </span>
-  
-    <span class="next ">Next</span>
-  
-</div>
+<ol>
+  <li>
+    <p>Lexer: which identifies language words such as numbers and identifiers which are usually called tokens so it basically generate tokens</p>
+  </li>
+  <li>
+    <p>Parser: syntactical structure formed by tokens is analyzed and generates AST (abstract syntax tree)</p>
+  </li>
+  <li>
+    <p>Semantic analyzer: Check if rules of programming language is obeyed then if no errors found Then AST is transformed to IR and handed over to middle end</p>
+  </li>
+</ol>
 
         <div>
     </body>
