@@ -7,7 +7,7 @@ category: Compiler
 
 Here, we’re disecting compiler components.
 
-# <span style="color:blue">The structure of compiler(Front End focus)</span>
+# <span style="color: #808000;">The structure of compiler(Front End focus)</span>
 
 Compiler consists of three main components: 
 
@@ -16,7 +16,7 @@ Compiler consists of three main components:
 3. Backend: Produces machine code from Intermediate representation (IR)
 
 
-## <span style="color:blue">Front End</span>
+## <span style="color: #808000;">Front End</span>
 
 Usually the input to front end is text file which then is processed with the three following components:
 

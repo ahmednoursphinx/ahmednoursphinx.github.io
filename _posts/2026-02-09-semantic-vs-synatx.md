@@ -7,13 +7,13 @@ category: Misc
 
 Here, we’re separating semantics from syntax to clarify the difference.
 
-# <span style="color:blue">What is Semantics</span>
+# <span style="color: #808000;">What is Semantics</span>
 
 Short version first: semantics = meaning 😄 
 
 In programming languages, semantics describes what a program actually does when it runs, not how it looks or how it’s written.
 
-## <span style="color:blue">Layers of programming language</span>
+## <span style="color: #808000;">Layers of programming language</span>
 
 When we talk about a programming language, there are usually three layers:
 
@@ -40,7 +40,7 @@ Store the result in a
 
 If b = 2 and c = 3, the semantic result is a = 5.
 
-## <span style="color:blue">Why syntax alone is not enough?</span>
+## <span style="color: #808000;">Why syntax alone is not enough?</span>
 
 For example :
 
@@ -72,7 +72,7 @@ So semantics answers:
 
 “What exactly happens here?”
 
-## <span style="color:blue">Semantics vs behavior across languages</span>
+## <span style="color: #808000;">Semantics vs behavior across languages</span>
 
 ```c++
 int x = 1 / 2;
@@ -86,7 +86,7 @@ Swift semantics → compile error (type mismatch)
 
 Same text, different meaning.
 
-## <span style="color:blue">Summary</span>
+## <span style="color: #808000;">Summary</span>
 
 **Syntax** is how code looks.
 
